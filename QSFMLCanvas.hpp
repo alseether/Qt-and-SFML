@@ -17,6 +17,10 @@ private:
 
 	virtual void OnUpdate() = 0;
 
+	virtual void mousePressEvent(QMouseEvent*) = 0;
+	virtual void mouseMoveEvent(QMouseEvent*) = 0;
+	virtual void mouseReleaseEvent(QMouseEvent*) = 0;
+
 	virtual QPaintEngine* paintEngine() const;
 
 	virtual void showEvent(QShowEvent*);
