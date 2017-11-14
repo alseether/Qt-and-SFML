@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>613</width>
+    <width>614</width>
     <height>394</height>
    </rect>
   </property>
@@ -29,6 +29,21 @@
        <property name="text">
         <string>Pencil</string>
        </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+       <property name="checked">
+        <bool>false</bool>
+       </property>
+       <property name="autoExclusive">
+        <bool>true</bool>
+       </property>
+       <property name="autoDefault">
+        <bool>false</bool>
+       </property>
+       <property name="flat">
+        <bool>false</bool>
+       </property>
       </widget>
      </item>
      <item>
@@ -36,12 +51,24 @@
        <property name="text">
         <string>Eraser</string>
        </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+       <property name="autoExclusive">
+        <bool>true</bool>
+       </property>
       </widget>
      </item>
      <item>
       <widget class="QPushButton" name="pushButton_2">
        <property name="text">
         <string>Fill</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+       <property name="autoExclusive">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
@@ -484,6 +511,12 @@
        <property name="text">
         <string/>
        </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+       <property name="autoExclusive">
+        <bool>true</bool>
+       </property>
        <property name="default">
         <bool>false</bool>
        </property>
@@ -912,12 +945,24 @@
        <property name="text">
         <string/>
        </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+       <property name="autoExclusive">
+        <bool>true</bool>
+       </property>
       </widget>
      </item>
      <item>
       <widget class="QPushButton" name="pushButton_10">
        <property name="text">
         <string/>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+       <property name="autoExclusive">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
@@ -926,12 +971,24 @@
        <property name="text">
         <string/>
        </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+       <property name="autoExclusive">
+        <bool>true</bool>
+       </property>
       </widget>
      </item>
      <item>
       <widget class="QPushButton" name="pushButton_7">
        <property name="text">
         <string/>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+       <property name="autoExclusive">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
@@ -940,6 +997,12 @@
        <property name="text">
         <string/>
        </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+       <property name="autoExclusive">
+        <bool>true</bool>
+       </property>
       </widget>
      </item>
     </layout>
@@ -947,17 +1010,23 @@
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>579</x>
+      <x>581</x>
       <y>296</y>
-      <width>31</width>
+      <width>30</width>
       <height>30</height>
      </rect>
     </property>
     <property name="autoFillBackground">
      <bool>true</bool>
     </property>
+    <property name="frameShape">
+     <enum>QFrame::Panel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
     <property name="text">
-     <string>a</string>
+     <string/>
     </property>
    </widget>
    <widget class="MyCanvas" name="widget" native="true">
@@ -965,7 +1034,7 @@
      <rect>
       <x>0</x>
       <y>0</y>
-      <width>561</width>
+      <width>581</width>
       <height>321</height>
      </rect>
     </property>

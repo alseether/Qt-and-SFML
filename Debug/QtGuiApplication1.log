@@ -1,7 +1,9 @@
-﻿Compilación iniciada a las 14/11/2017 16:05:35.
+﻿Compilación iniciada a las 14/11/2017 17:01:58.
      1>Proyecto "D:\Users\alazaro\Documents\GitHub\Qt-and-SFML\QtGuiApplication1.vcxproj" en el nodo 2 (Build destinos).
+     1>CustomBuild:
+         Uic'ing QtGuiApplication1.ui...
      1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_QtGuiApplication1.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_QtGuiApplication1.cpp, GeneratedFiles\Release\moc_QtGuiApplication1.cpp.
-     1>ClCompile:
+       ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\Users\alazaro\Documents\GitHub\Qt-and-SFML\packages\sfml-graphics.2.4.2.0\build\native\../..//build/native/include/" /I"D:\Users\alazaro\Documents\GitHub\Qt-and-SFML\packages\sfml-window.2.4.2.0\build\native\../..//build/native/include/" /I"D:\Users\alazaro\Documents\GitHub\Qt-and-SFML\packages\sfml-system.2.4.2.0\build\native\../..//build/native/include/" /I.\GeneratedFiles /I. /IC:\Qt\Qt5.7.0\5.7\msvc2013\\include /I.\GeneratedFiles\Debug /IC:\Qt\Qt5.7.0\5.7\msvc2013\\include\QtCore /IC:\Qt\Qt5.7.0\5.7\msvc2013\\include\QtGui /IC:\Qt\Qt5.7.0\5.7\msvc2013\\include\QtWidgets /Zi /nologo /W1 /WX- /Od /Oy- /D HAS_SFML /D HAS_SFML /D HAS_SFML /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\Debug\moc_QtGuiApplication1.cpp QtGuiApplication1.cpp main.cpp
          moc_QtGuiApplication1.cpp
          QtGuiApplication1.cpp
@@ -18,4 +20,4 @@
 
 Compilación correcta.
 
-Tiempo transcurrido 00:00:04.02
+Tiempo transcurrido 00:00:03.96
