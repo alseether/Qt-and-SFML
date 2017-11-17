@@ -1,4 +1,4 @@
-﻿Compilación iniciada a las 14/11/2017 17:27:15.
+﻿Compilación iniciada a las 17/11/2017 9:43:02.
      1>Proyecto "D:\Users\alazaro\Documents\GitHub\Qt-and-SFML\QtGuiApplication1.vcxproj" en el nodo 2 (Build destinos).
      1>CustomBuild:
          Uic'ing QtGuiApplication1.ui...
@@ -15,11 +15,9 @@
          Debug\main.obj
          Debug\QSFMLCanvas.obj
          Debug\QtGuiApplication1.obj
-            Creando biblioteca D:\Users\alazaro\Documents\GitHub\Qt-and-SFML\Win32\Debug\QtGuiApplication1.lib y objeto D:\Users\alazaro\Documents\GitHub\Qt-and-SFML\Win32\Debug\QtGuiApplication1.exp
-     1>sfml-main-d.lib(MainWin32.cpp.obj) : warning LNK4099: no se encontr≤ PDB 'vc120.pdb' con 'sfml-main-d.lib(MainWin32.cpp.obj)' o en 'D:\Users\alazaro\Documents\GitHub\Qt-and-SFML\Win32\Debug\vc120.pdb'; se vincularß el objeto sin tener en cuenta informaci≤n de depuraci≤n
          QtGuiApplication1.vcxproj -> D:\Users\alazaro\Documents\GitHub\Qt-and-SFML\Win32\Debug\QtGuiApplication1.exe
      1>Compilación del proyecto terminada "D:\Users\alazaro\Documents\GitHub\Qt-and-SFML\QtGuiApplication1.vcxproj" (Build destinos).
 
 Compilación correcta.
 
-Tiempo transcurrido 00:00:04.86
+Tiempo transcurrido 00:00:03.83
