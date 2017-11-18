@@ -1,6 +1,14 @@
 # Qt-and-SFML
 Some attempts to combine both libraries, trying to get the best from each one
 
+First at all
+----------------
+To run these projects, you must have intalled 
+- VS 2013 (SFML libraries are installed via NuGet packages)
+- [Qt for application development](https://www.qt.io/download-qt-for-application-development)
+- [Qt Visual Studio 2013 Tools](http://download.qt.io/official_releases/vsaddin/)
+
+
 The Goals
 ----------------
 I will try to combine this two powerful libraries to create some interfaces. I love to make videogames and i've made some with pure SFML before.
